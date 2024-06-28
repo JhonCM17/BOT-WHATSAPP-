@@ -3,8 +3,7 @@ import pyautogui as pg
 import webbrowser
 import time
 
-# Proporciona la ruta completa del archivo
-ruta_archivo = 'C:/Users/JhonCM/Documents/Proyectos Python/BOT WHATSAP/DATA.xlsx'
+ruta_archivo = 'DATA.xlsx'
 excel = pd.read_excel(ruta_archivo)
 contactos = excel['NUMEROS']
 
